@@ -6,8 +6,8 @@ Layout and Structure:
 
 Use a grid system to organize form elements flexibly and responsively.
 Divide the form into logical sections using <div> or <section> tags for easier styling and responsiveness.
-Input Fields:
 
+Input Fields:
 Use appropriate input types for each field, such as text, email, password, number, etc.
 Provide clear placeholders and labels to guide users on what to input in each field.
 Implement input validation to ensure correct data before form submission.
