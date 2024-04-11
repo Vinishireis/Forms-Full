@@ -4,8 +4,7 @@ Forms Full Responsive
 
 Layout and Structure:
 
-Use a grid system to organize form elements flexibly and responsively.
-Divide the form into logical sections using <div> or <section> tags for easier styling and responsiveness.
+Use a grid system to organize form elements flexibly and responsively. Divide the form into logical sections using <div> or <section> tags for easier styling and responsiveness.
 
 Input Fields:
 Use appropriate input types for each field, such as text, email, password, number, etc.
