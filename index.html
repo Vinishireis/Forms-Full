@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Formulários de Cadastro</title> 
+</head>
+<body>
+    <div class="container-full">
+        <header>Cadastre-se</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Detalhes Pessoais</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Nome Completo</label>
+                            <input type="text" placeholder="Insira o seu nome" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Data de Nascimento</label>
+                            <input type="date" placeholder="Insira a data de nascimento" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Insira o seu Email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Número de Celular</label>
+                            <input type="number" placeholder="Insira o número de celular" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gênero</label>
+                            <select required>
+                                <option disabled selected>Selecione o gênero</option>
+                                <option>Masculino</option>
+                                <option>Feminino</option>
+                                <option>Outros</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Ocupação</label>
+                            <input type="text" placeholder="Insira a sua ocupação" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Detalhes de Identidade</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Tipo de Identidade</label>
+                            <input type="text" placeholder="Insira o tipo de identidade" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Número de Identidade</label>
+                            <input type="number" placeholder="Insira o número de identidade" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Autoridade Emitente</label>
+                            <input type="text" placeholder="Insira a autoridade emitente" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Estado de Emissão</label>
+                            <input type="text" placeholder="Insira o estado de emissão" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Data de Emissão</label>
+                            <input type="date" placeholder="Insira a data de emissão" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Data de Expiração</label>
+                            <input type="date" placeholder="Insira a data de expiração" required>
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Próximo</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Detalhes de Endereço</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Tipo de Endereço</label>
+                            <input type="text" placeholder="Permanente ou Temporário" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nacionalidade</label>
+                            <input type="text" placeholder="Insira a nacionalidade" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Estado</label>
+                            <input type="text" placeholder="Insira o estado" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Distrito</label>
+                            <input type="text" placeholder="Insira o distrito" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Número do Bloco</label>
+                            <input type="number" placeholder="Insira o número do bloco" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Número do Distrito</label>
+                            <input type="number" placeholder="Insira o número do distrito" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details family">
+                    <span class="title">Detalhes da Família</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Nome do Pai</label>
+                            <input type="text" placeholder="Insira o nome do pai" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nome da Mãe</label>
+                            <input type="text" placeholder="Insira o nome da mãe" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Avô</label>
+                            <input type="text" placeholder="Insira o nome do avô" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nome do Cônjuge</label>
+                            <input type="text" placeholder="Insira o nome do cônjuge" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Pai do Cônjuge</label>
+                            <input type="text" placeholder="Insira o nome do pai do cônjuge" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mãe do Cônjuge</label>
+                            <input type="text" placeholder="Insira o nome da mãe do cônjuge" required>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Voltar</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Enviar</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
